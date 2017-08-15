@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A site for recognition when the OS starts">
+
+    <title>OceanOS - A site for recognition when the OS starts</title>
+
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+  	<link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+  	<link href="assets/css/font-awesome.css" rel="stylesheet">
+
+    <link href="assets/css/style.css" rel="stylesheet">
+	
+  </head>
+
+  <body>
+
+	<div id="wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>OceanOS</h1>
+					<h2 class="subtitle">A site for recognition when the OS starts.</h2>
+					<div id="countdown"></div>
+					<form class="form-inline signup" role="form">
+					  <a class="btn btn-theme" href="https://vk.com/oceansstudio">Subcribe</a>
+					</form>		
+          
+          <div class="social">
+              <a href="https://vk.com/oceansstudio"><i class="fa fa-vk" aria-hidden="true"></i></a>
+               <a href="https://vk.com/monolus"><i class="fa fa-link" aria-hidden="true"></i></a>
+          </div>
+				</div>
+			</div>
+      
+      
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">
+						<p class="copyright">&copy; Ocean - All Rights Reserved</p>
+            <div class="credits"> 
+                <a class="vk" href="https://vk.com/wyzeos">OceanOS</a>
+            </div>
+				</div>
+			</div>		
+		</div>
+	</div>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.countdown.min.js"></script>
+	<script type="text/javascript">
+    $('#countdown').countdown('2018/02/01', function(event) {
+      $(this).html(event.strftime('%w weeks %d days <br /> %H:%M:%S'));
+    });
+  </script>
+  
+  <script src="contactform/contactform.js"></script>
+  
+</body>
+</html>
